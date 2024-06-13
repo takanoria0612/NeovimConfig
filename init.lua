@@ -38,7 +38,7 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua", "javascript", "python"},
+  ensure_installed = {"lua", "javascript", "python", "c_sharp", "scala", "rust"},
   highlight = { enable = true },
   indent = { enable = true },
 })
